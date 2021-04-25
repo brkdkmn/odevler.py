@@ -1,0 +1,5 @@
+name = (input("Lutfen!, isminizi girerek parolayi dogrulayin."))
+if name == "joseph" :
+  print("merhaba, joseph! parola :w@12")
+else :
+  print("Merhaba Amina! sonra gorusuruz")
