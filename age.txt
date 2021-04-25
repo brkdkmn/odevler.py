@@ -1,0 +1,19 @@
+age = input("75 yasindan buyuk ve sigara bagimli misiniz? : ")
+if age == "hayir":
+    age = False
+else:
+    age = True
+chronic = input("kronik hastaliginiz var mi : ")
+if chronic == "hayir":
+    chronic = False
+else:
+    chronic = True
+immune = input("bagisiklik sisteminiz cok mu zayif : ")
+if immune == "hayir":
+    immune = False
+else:
+    immune = True
+if age == False and chronic == False and immune == False:
+    print("risk grubunda degilsiniz icmeye devam..!")
+else:
+    print("risk grubundasin dikkat et")
